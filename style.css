@@ -1,0 +1,297 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.first {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(bp.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 170px
+}
+
+.fall {
+    width: 500px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: column;
+    text-align-last: right;
+}
+
+.fall h1 {
+    width: 300px;
+    font-size: 35px;
+    margin-bottom: 30px;
+    line-height: 40px;
+}
+
+.fall p {
+    width: 390px;
+    font-size: 17px;
+    margin-bottom: 25px;
+    line-height: 25px;
+}
+
+.fall button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 42px;
+    border: none;
+    cursor: pointer;
+    background-color: orange;
+    color: white;
+}
+
+
+
+/* second */
+.second {
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 170px;
+}
+
+.sleft {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sleft img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.sright {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sright h1 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.sright p {
+    font-size: 15px;
+    margin-bottom: 25px;
+    line-height: 22px;
+}
+
+.same {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+
+.same span {
+    font-size: 15px;
+
+}
+
+.same i {
+    font-size: 18px;
+    margin-right: 10px;
+    color: rgb(19, 220, 143);
+}
+
+/* third */
+.third {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 250px;
+}
+
+.third h1 {
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.allpic {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.one {
+    text-align: center;
+}
+
+.one img {
+    width: 100px;
+    height: 80px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+/* laptop */
+.laptop{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.pic{
+    width: 50%;
+    height: 400px;
+
+}
+.pic img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.left{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 60px;
+}
+.left h1{
+    font-size: 30px;
+}
+.left p{
+    font-size: 18px;
+}
+.left button{
+    width: 150px;
+    height: 40px;
+    color: #fff;
+    border: none;
+    background: rgb(218, 205, 25);
+}
+/* forth */
+
+.forth {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 170px;
+}
+
+.fcon {
+    width: 100%;
+    background: linear-gradient(#b8c209c5, #0d0638c5), url(bp.jpg);
+    padding: 50px 60px;
+}
+
+.forth h1 {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+}
+.fcon button{
+    width: 120px;
+    height: 42px;
+    border: none;
+    cursor: pointer;
+    background-color: orange;
+    color: white;
+}
+
+/* footer */
+.footer{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 170px;
+    background-color: black;
+    color: white;
+}
+.foleft{
+    width: 70%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.foleft h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.foleft p{
+    font-size: 15px;
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+.foleft span{
+    margin-bottom: 10px;
+}
+.icons{
+    margin-top: 10px;
+    display: flex;
+    
+}
+.icons i{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: white;
+    margin-right: 20px;
+    color: red;
+}
+
+.foright{
+    width: 30%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.foright h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.foright input{
+    width: 250px;
+    height: 50px;
+    border: 1px solid white;
+    background: transparent;
+    padding: 10px 10px;
+    margin-bottom: 20px;
+    color: white;
+}
+.foright button{
+    width: 120px;
+    height: 42px;
+    border: none;
+    cursor: pointer;
+    background-color: orange;
+    color: white; 
+    font-size: 17px;
+}
